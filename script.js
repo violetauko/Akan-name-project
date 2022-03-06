@@ -1,7 +1,7 @@
 function validate() {
   var{year,month,date,gender} = document.myForm;
   if( year.value == "" || year.value.length !=4 ) {
-     alert( "Invalid year!" );
+     alert( "Invalid year!!" );
      year.focus() ;
      return false;
   }
