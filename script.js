@@ -38,14 +38,14 @@ function dayValue(year,month,date,gender){
   DD = parseInt(date.value);
   d = ( ( (CC/4) -2*CC-1) + ( (5*YY/4) ) + ((26*(MM+1)/10) ) + DD)%7;
   
-  getGender(Math.trunc(d),gender.value);
+  findGender(Math.trunc(d),gender.value);
 }
 
-function getGender(dayValue,gender){
+function findGender(dateValue,gender){
 
-    if(dayValue<7&&gender==="male"){
-        alert("Wonderful!! You were born on " +dayNames[dayValue] + " and Your akan name is " + maleNames[dayValue]);
-    }else if(dayValue<7&&gender==="female"){
-        alert("Wonderful!! You were born on " +dayNames[dayValue] + " and Your akan name is " + femaleNames[dayValue]);
+    if(dateValue<7&&gender==="male"){
+        alert("Wonderful!! You were born on " +dayNames[dateValue] + " and Your akan name is " + maleNames[dateValue]);
+    }else if(dateValue<7&&gender==="female"){
+        alert("Wonderful!! You were born on " +dayNames[dateValue] + " and Your akan name is " + femaleNames[dateValue]);
     }
 }
