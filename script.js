@@ -1,8 +1,3 @@
-var CC, YY, MM, DD, d, dayValue;
-var dayNames = ["Sunday","Monday","Tuesday","Wednesday", "Thursday", "Friday","Saturday" ];
-var maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw", "Kofi","Kwame"];
-var femaleNames = ["Akosua","Adwoa","Abenaa","Akua"," Yaa","Afua","Ama"];
-
 function validate() {
   var{year,month,date,gender} = document.myForm;
   if( year.value == "" || year.value.length !=4 ) {
@@ -30,6 +25,11 @@ function validate() {
   }
   
 }
+var dayNames = ["Sunday","Monday","Tuesday","Wednesday", "Thursday", "Friday","Saturday" ];
+var maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw", "Kofi","Kwame"];
+var femaleNames = ["Akosua","Adwoa","Abenaa","Akua"," Yaa","Afua","Ama"];
+var dayNames = ["Sunday","Monday","Tuesday","Wednesday", "Thursday", "Friday","Saturday" ];
+var CC, YY, MM, DD, d, dayValue;
 
 function dayValue(year,month,date,gender){
   CC = parseInt(year.value.substring(0,2));
