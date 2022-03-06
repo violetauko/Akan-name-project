@@ -1,9 +1,48 @@
-*{
-    text-align: center;
-    background-image: url("./assets/catrin-johnson-ym96FAhQ8o4-unsplash.jpg");
-    font-size: 20px;
+.container{
+    width: 80%;
+    margin-left: 20px;
 }
 h1{
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
+    text-align: center;
+}
+
+.description > p{
+    padding: 0 20px 2px 15px;
+    line-height: 1.2;
+}
+.formContent{
+    margin: auto;
+width: 60%;
+border: 5px solid #FFFF00;
+padding: 10px;
+}
+.fields{
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+}
+.fields > select{
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 70%;
+}
+.fields > input{
+    border-radius: 10px;
+    width: 70%;
+}
+button{
+    background-color: gray;
+    border-radius: 20px;
+    color: white;
+    padding: 0 20px 0 20px;
+    text-align: center;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    height: 2.5rem; 
+    width: 100%; 
+    text-align: center;
 }

@@ -11,29 +11,30 @@
     <title>Akan names</title>
   </head> 
   <body>
-    
-    <div class="description">
-        <h1>Akan Names</h1>
-        <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. </p>
-        <p>This application helps you to know what your name would have been incase you were born in Ghana.</p>
-    </div>
     <div class="container">
-        <h2>Input your details to know your Akan name</h2>
+        <div class="description">
+            <h1>Akan Names</h1>
+            <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. </p>
+            <p>This application helps you to know what your name would have been incase you were born in Ghana.</p>
+        </div>
+        <div class="formContent">
+            <diV class="results" id="results"></diV>
+        <h2>Input your details </h2>
         <form name="myForm" onsubmit=" validate();">
             <div class="input-fields">
-                <div>
-                    <label>Year of birth</label>
-                    <input name="year" type="number" placeholder="Year of birth">
+                <div class="fields">
+                    <label for="year">Year of birth</label>
+                    <input name="year" type="number">
                 </div>
-                <div>
+                <div class="fields">
                     <label>Month</label>
-                    <input name="month" type="number" placeholder="Month of birth">
+                    <input name="month" type="number">
                 </div>
-                <div>
+                <div class="fields">
                     <label>Day</label>
-                    <input name="date" type="number" placeholder="Birth day">
+                    <input name="date" type="number">
                 </div>
-                <div>
+                <div class="fields">
                     <label>Select Gender</label>
                     <select name="gender" >
                         <option value=""></option>
@@ -45,9 +46,10 @@
 
             <button type="submit" >Submit</button>
         </form>
+        </div>
     </div>
     
 </body>
-<footer class="text-center">
+<footer>
     Copyright &copy; 2022
 </html>
