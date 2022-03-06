@@ -1,0 +1,9 @@
+*{
+    text-align: center;
+    background-image: url("./assets/catrin-johnson-ym96FAhQ8o4-unsplash.jpg");
+    font-size: 20px;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
