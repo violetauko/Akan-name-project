@@ -44,8 +44,8 @@ function dayValue(year,month,date,gender){
 function getGender(dayValue,gender){
 
     if(dayValue<7&&gender==="male"){
-        alert("Opps!! You were born on " +dayNames[dayValue] + " and Your akan name is " + maleNames[dayValue]);
+        alert("Wonderful!! You were born on " +dayNames[dayValue] + " and Your akan name is " + maleNames[dayValue]);
     }else if(dayValue<7&&gender==="female"){
-        alert("Opps!! You were born on " +dayNames[dayValue] + " and Your akan name is " + femaleNames[dayValue]);
+        alert("Wonderful!! You were born on " +dayNames[dayValue] + " and Your akan name is " + femaleNames[dayValue]);
     }
 }
