@@ -1,3 +1,6 @@
+body{
+    background-image: url("./assets/pexels-andreea-ch-1166644.jpg");
+}
 .container{
     width: 80%;
     margin-left: 20px;
@@ -13,10 +16,10 @@ h1{
     line-height: 1.2;
 }
 .formContent{
-    margin: auto;
+ margin: auto;
 width: 60%;
-border: 5px solid #FFFF00;
 padding: 10px;
+background-color: rgba(97, 91, 91, 0.1);
 }
 .fields{
     display: flex;
