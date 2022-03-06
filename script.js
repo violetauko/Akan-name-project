@@ -1,22 +1,22 @@
 function validate() {
   var{year,month,date,gender} = document.myForm;
   if( year.value == "" || year.value.length !=4 ) {
-     alert( "Please provide a valid year of birth!" );
+     alert( "Invalid year!" );
      year.focus() ;
      return false;
   }
-  else if( month.value == "" || month.value.length != 2 || month.value > 12  || month.value <= 0){
-     alert( "Please provide your month of birth! between 1 and 12" );
+  else if( month.value == ""|| month.value > 12  || month.value <= 0){
+     alert( "Enter valid month!" );
      month.focus() ;
      return false;
   }
-  else if( date.value == "" || month.value.length != 2|| date.value > 31 ||date.value <= 0) {
-     alert( "Please provide a valid date that you were born!" );
+  else if( date.value == "" || date.value > 31 ||date.value <= 0) {
+     alert( "Enter valid date!" );
      date.focus() ;
      return false;
   }
   else if(gender.value==null||gender.value==undefined|| gender.value=="") {
-      alert("You must select male or female");
+      alert("Select gender!");
       return false;
   }   
   else{
