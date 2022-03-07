@@ -4,31 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div class="description">
-
-    </div>
+    <script src="/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+    <title>Akan names</title>
+  </head> 
+  <body>
     <div class="container">
-        <form name="myForm">
+        <div class="description">
+            <h1>Akan Names</h1>
+            <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. </p>
+            <p>This application helps you to know what your name would have been incase you were born in Ghana.</p>
+        </div>
+        <div class="formContent">
+        <h2>Input your details </h2>
+        <form name="myForm" onsubmit=" validate();">
             <div class="input-fields">
-                <div>
-                    <label>Year of birth</label>
-                    <input name="year" type="number" placeholder="Year of birth">
+                <div class="fields">
+                    <label for="year">Year of birth:</label>
+                    <input name="year" type="number">
                 </div>
-                <div>
-                    <label>Month</label>
-                    <input name="month" type="number" placeholder="Month of birth">
+                <div class="fields">
+                    <label>Month:</label>
+                    <input name="month" type="number">
                 </div>
-                <div>
-                    <label>Day</label>
-                    <input name="date" type="number" placeholder="Birth day">
+                <div class="fields">
+                    <label>Day:</label>
+                    <input name="date" type="number">
                 </div>
-                <div>
-                    <label>Select Gender</label>
-                    <select name="gender">
-                        <option value=null></option>
+                <div class="fields">
+                    <label>Select Gender:</label>
+                    <select name="gender" >
+                        <option value=""></option>
                         <option value="male">Male</option>
                         <option value="female">Female</option>
                     </select>
@@ -37,7 +45,10 @@
 
             <button type="submit" >Submit</button>
         </form>
+        </div>
     </div>
     
 </body>
+<footer>
+    Copyright &copy; 2022
 </html>

@@ -1,0 +1,57 @@
+body{
+    background-image: url("./assets/pexels-andreea-ch-1166644.jpg");
+}
+.container{
+    width: 80%;
+    margin-left: 20px;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.description > p{
+    padding: 0 20px 2px 15px;
+    line-height: 1.2;
+}
+.formContent{
+ margin: auto;
+width: 60%;
+padding: 10px;
+background-color: rgb(136, 129, 129,0.8);
+}
+.fields{
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+}
+.fields > select{
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 70%;
+}
+.fields > input{
+    border-radius: 10px;
+    width: 70%;
+}
+button{
+    background-color: gray;
+    color: white;
+    padding: 0 20px 0 20px;
+    text-align: center;
+}
+button:hover {
+    background-color: black;
+    color: black;
+    box-shadow: 0 0 0 10px white;
+    background-color: white;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    height: 2.5rem; 
+    width: 100%; 
+    text-align: center;
+}
