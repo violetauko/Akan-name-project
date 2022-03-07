@@ -64,3 +64,5 @@ License
 -MIT license
 
 -Copyright (c) 2022 Violet Auko
+
+LIVE LINK:  https://violetauko.github.io/Akan-name-project/
