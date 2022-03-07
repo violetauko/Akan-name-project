@@ -37,10 +37,15 @@ background-color: rgba(97, 91, 91, 0.1);
 }
 button{
     background-color: gray;
-    border-radius: 20px;
     color: white;
     padding: 0 20px 0 20px;
     text-align: center;
+}
+button:hover {
+    background-color: black;
+    color: black;
+    box-shadow: 0 0 0 10px white;
+    background-color: white;
 }
 footer{
     position: absolute;
