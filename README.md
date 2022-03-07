@@ -1,15 +1,19 @@
 Akan Name project
 This application helps you to know what your name would have been incase you were born in Ghana. 06/03/2022
-#### By **{Violet Auko}**
-## Description
+
+By Violet Auko
+
+Description
 This project is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
-## Setup/Installation Requirements
-* Open Terminal (CTRL + ALT + T) 
-* git clone https://github.com/violetauko/Akan-name-project.git
-* cd Akan Name Project
-* install visual studio code ($ sudo apt install code)
-* code.
-## Known Bugs
+
+ Setup/Installation Requirements
+ -Open Terminal (CTRL + ALT + T) 
+ -git clone https://github.com/violetauko/Akan-name-project.git
+- cd Akan Name Project
+- install visual studio code ($ sudo apt install code)
+ -code.
+
+ Known Bugs 
 No know bugs as at now.
 
 BDD
@@ -31,13 +35,19 @@ Gender Male or Female.
 
 True value is output. Output example: You were born on Sunday and Your akan name is Kwasi! &nbsp If your gender is Male.
 True value is output. Output example: You were born on Sunday and Your akan name is Akosua! &nbsp If your gender is female.
-## Technologies Used
-HTML
-CSS
-JAVASCRIPT
-BOOTSTRAP
-## Support and contact details
-For any qustions or contributions email me at aukoviolet24@gmail.com
-### License
-MIT license
-Copyright (c) 2022 Violet Auko
+
+
+Technologies Used
+-HTML
+-CSS
+-JAVASCRIPT
+-BOOTSTRAP
+
+
+Support and contact details
+  For any qustions or contributions email me at aukoviolet24@gmail.com
+
+
+License
+-MIT license
+-Copyright (c) 2022 Violet Auko
