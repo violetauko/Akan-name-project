@@ -46,8 +46,11 @@ True value is output. Output example: You were born on Sunday and Your akan name
 Technologies Used
 
 -HTML
+
 -CSS
+
 -JAVASCRIPT
+
 -BOOTSTRAP
 
 
@@ -59,4 +62,5 @@ Support and contact details
 License
 
 -MIT license
+
 -Copyright (c) 2022 Violet Auko
